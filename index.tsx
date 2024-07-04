@@ -51,6 +51,9 @@ export default function PlatformHero() {
 		}
 	`)
 
+	/**
+ 	* Scrubbed scroll-based animation for the copy, images, and product preview.
+ 	*/
 	useAnimation(() => {
 		const tl = gsap.timeline({
 			scrollTrigger: {
